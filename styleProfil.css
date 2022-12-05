@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#body{
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    grid-row: 1fr;
+}
+/* NAVBAR++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+#aside{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-around;
+    padding-top: 40%;
+    padding-bottom: 40%;
+    background-color: rgb(49, 171, 55);
+}
+.item{
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    border-bottom: 2px solid black;
+    padding: 8% 0;
+}
+#aside .item:last-child{
+    border-bottom: none;
+}
+.item i{
+    font-size: 60px;
+}
+.item a{
+    font-size: 20px;
+    color: rgb(78, 61, 231);
+    text-decoration-line: none ;
+}
+.itemPage{
+    background: radial-gradient(rgb(207, 209, 207) 20%,rgb(49, 171, 55)70%) ;
+}
+.itemChoix:hover{
+    background: radial-gradient(rgb(207, 209, 207) 20%,rgb(49, 171, 55)70%) ;
+}
+/* PAGE++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+#profil{
+    display: flex;
+    background-color: rgb(49, 171, 55);
+}
+#bloc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: none;
+    margin:3% 3% 3% 0;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: rgb(198, 86, 86);
+    width: 100%;
+    box-shadow: 0px 0px 30px black;
+}
+/* TEXTE */
+.text{
+height: 30%;
+width: 60%;
+margin: 4% 4% 0 4%;
+}
+.txt{
+    font-size: 45px;
+    color: white;
+}
+.txt span{
+    font-weight: bold;
+}
+/* PHOTO */
+.img1{
+    height: 320px;
+    width: 320px;
+    margin-top: 4%;
+    margin-right: 6%;
+    margin-left: 5%;
+    border-radius: 70px;
+    border-color: blueviolet;
+}
+/* DECO */
+.img2{
+    margin: 0;
+    padding-left: 15%;
+    padding-bottom: 5%;
+}
+/* BOUTONS */
+.boutton{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    height: 40%;
+    margin-left: 3%;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.boutton a{
+    text-decoration-line: none;
+    font-size: 30px;
+    color: white;
+}
+.boutton div{
+    background-color: rgb(138, 76, 197);
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 30px;
+    justify-content: center;
+    height: 16%;
+}
+/* GITHUB */
+.github{
+    margin-left: 30%;
+    padding-top: 7%;
+    width: 25%;
+    font-size: 50px;
+    text-align: center;   
+}
+.github a{
+    text-decoration-line: none;
+    color: white;
+}
